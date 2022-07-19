@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@
     top: 0px;
     left: 0;
     background-color: rgb(0, 0, 0);
-    font-family: 'Corben', cursive;
+    font-family: 'Mukta', sans-serif;
     font-size: 120px;
     color: rgb(255, 255, 255);
     mix-blend-mode: multiply;
@@ -60,7 +60,7 @@ html {
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Mukta', sans-serif;
     z-index: 999;
     transition: all 0.3s ease;
 }
@@ -80,7 +80,7 @@ html {
     color: #fff;
     font-size: 35px;
     font-weight: 500;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .navbar .logo a span {
@@ -103,7 +103,7 @@ html {
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .navbar .menu li a:hover {
@@ -123,7 +123,7 @@ html {
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Corben', cursive;
+    font-family: 'Mukta', sans-serif;
 }
 
 .home .max-width {
@@ -132,20 +132,20 @@ html {
 
 .home .home-content .text-1 {
     font-size: 27px;
-    text-shadow: 12px 11px 9px #000000;
+    text-shadow: 12px 11px 7px #000000;
 }
 
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
-    text-shadow: 12px 11px 9px #000000;
+    text-shadow: 12px 11px 7px #000000;
 }
 
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
-    text-shadow: 12px 11px 9px #000000;
+    text-shadow: 12px 11px 7px #000000;
 }
 
 .home .home-content .text-3 span {
@@ -219,7 +219,7 @@ section {
 }
 
 section .title {
-    font-family: 'Corben', cursive;
+    font-family: 'Mukta', sans-serif;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -256,7 +256,7 @@ section .title::after {
 .teams,
 .contact,
 footer {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Mukta', sans-serif;
 }
 
 .about .about-content,
@@ -288,7 +288,7 @@ footer {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .about .about-content .right .text span {
@@ -383,11 +383,11 @@ footer {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-    text-shadow: 9px 6px 12px #52bde7;
+    text-shadow: 9px 6px 7px #52bde7;
 }
 
 .services .serv-content .card:hover .text {
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 
@@ -406,7 +406,7 @@ footer {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .skills .skills-content .left p {
@@ -446,7 +446,7 @@ footer {
 .skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .skills .skills-content .right .line {
@@ -533,11 +533,11 @@ footer {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-    text-shadow: 9px 6px 12px #52bde7;
+    text-shadow: 9px 6px 7px #52bde7;
 }
 
 .teams .carousel .card:hover .text {
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .box .button {
@@ -614,7 +614,7 @@ footer {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-shadow: 9px 6px 12px #000000;
+    text-shadow: 9px 6px 7px #000000;
 }
 
 .contact .contact-content .left .icons {
@@ -719,6 +719,7 @@ footer {
     padding: 20px 23px;
     color: #fff;
     text-align: center;
+    text-shadow: 8px 8px 8px white;
 }
 
 footer span a {
